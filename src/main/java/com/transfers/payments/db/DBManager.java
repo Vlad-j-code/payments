@@ -59,7 +59,7 @@ public final class DBManager {
 //    private DBManager() {
 //        Properties properties = new Properties();
 //        try {
-//            properties.load(new FileInputStream("test/com/transfers/payments/app.properties"));
+//            properties.load(new FileInputStream("C:/data/webServers/payments/src/test/java/com/transfers/payments/app.properties"));
 //        } catch (IOException e) {
 //            e.printStackTrace();
 //        }
@@ -67,21 +67,21 @@ public final class DBManager {
 //            connectionUrl = properties.getProperty("connection.url");
 //        }
 //    }
-//
-//    /**
-//     * Uncomment this method to run test.
-//     * And comment similar bottom method.
-//     * <p>
-//     * Returns a DB connection. This method is just for a example run test
-//     * to obtain a DB connection. It does not use a pool
-//     * connections and not used in this project.
-//     * <p>
-//     * Only for test!
-//     *
-//     * @return connection to DB payment.
-//     * @throws SQLException
-//     * @throws DBException
-//     */
+
+    /**
+     * Uncomment this method to run test.
+     * And comment similar bottom method.
+     * <p>
+     * Returns a DB connection. This method is just for a example run test
+     * to obtain a DB connection. It does not use a pool
+     * connections and not used in this project.
+     * <p>
+     * Only for test!
+     *
+     * @return connection to DB payment.
+     * @throws SQLException
+     * @throws DBException
+     */
 //    public Connection getConnection() throws SQLException, DBException {
 //        try {
 //            Class.forName("com.mysql.jdbc.Driver");
